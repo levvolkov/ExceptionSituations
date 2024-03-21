@@ -10,12 +10,12 @@
 ## Инструкция к заданию
 
 1. Скачайте и установите профессиональный редактор кода [Intellij Idea Community Version](https://www.jetbrains.com/idea/download/).
-1. Откройте IDEA, создайте и настройте новый [Maven-проект](QA_Maven_Idea_Create.md) (под каждую задачу следует создавать отдельный проект, если обратное не сказано в условии).
+1. Откройте IDEA, создайте и настройте новый [Maven-проект](https://github.com/netology-code/javaqa-homeworks-video/blob/javaqa-55/QA_Maven_Idea_Create.md) (под каждую задачу следует создавать отдельный проект, если обратное не сказано в условии).
 2. Создайте пустой репозиторий на GitHub и свяжите его с папкой вашего проекта (не с какой-либо другой папкой).
 3. Правильно настройте репозиторий в плане `.gitignore`. Проигнорируйте папки `.idea` и `target` (раньше была `out`) и `.iml`-файл — их в репозитории быть не должно.
-4. Закоммитьте и запушьте созданный проект на GitHub, настройте [GitHub Actions](QA_CI.md), сделайте `git pull`.
+4. Закоммитьте и запушьте созданный проект на GitHub, настройте [GitHub Actions](https://github.com/netology-code/javaqa-homeworks-video/blob/javaqa-55/QA_CI.md), сделайте `git pull`.
 4. Выполните в IDEA требуемую задачу согласно условию.
-5. Проверьте соблюдение [правил форматирования кода](QA_Java_Idea_Format.md).
+5. Проверьте соблюдение [правил форматирования кода](https://github.com/netology-code/javaqa-homeworks-video/blob/javaqa-55/QA_Java_Idea_Format.md).
 6. Убедитесь, что при запуске `mvn clean verify` (раньше было `mvn clean test`) все тесты запускаются, проходят, а сборка завершается успешно.
 7. Закоммитьте и отправьте в репозиторий содержимое папки проекта.
 8. Убедитесь, что CI запустился на последнем коммите и завершился успешно (зелёная галочка).
@@ -24,9 +24,9 @@
 
 ## Материалы для выполнения задания
 
-1. [Как создать Maven-проект в IDEA](QA_Maven_Idea_Create.md).
-1. [Как отформатировать код в Java](QA_Java_Idea_Format.md).
-1. [Как настроить CI на основе GitHub Actions](QA_CI.md).
+1. [Как создать Maven-проект в IDEA](https://github.com/netology-code/javaqa-homeworks-video/blob/javaqa-55/QA_Maven_Idea_Create.md).
+1. [Как отформатировать код в Java](https://github.com/netology-code/javaqa-homeworks-video/blob/javaqa-55/QA_Java_Idea_Format.md).
+1. [Как настроить CI на основе GitHub Actions](https://github.com/netology-code/javaqa-homeworks-video/blob/javaqa-55/QA_CI.md).
 
 ------
 
